@@ -9,10 +9,10 @@ class HeaderLogo extends React.Component {
 			<button className="header__nav-button" ></button>
 			<nav className="header__nav nav" >
 				<ul>
-					<li class="header__list-item">Главная</li>
-    			<li class="header__list-item">Фото и видео</li>
-    			<li class="header__list-item">Форма отзыва</li>
-    			<li class="header__list-item">Html academy</li>
+					<li className="header__list-item">Главная</li>
+    			<li className="header__list-item">Фото и видео</li>
+    			<li className="header__list-item">Форма отзыва</li>
+    			<li className="header__list-item">Html academy</li>
 				</ul>
 			</nav>
 		</div>

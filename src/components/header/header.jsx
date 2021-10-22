@@ -1,31 +1,19 @@
 import React, { Component } from 'react';
-
-class HeaderLogo extends React.Component {
-	render() {
-		<div className="header__logo logo" >
-			<picture className="logo__picture">
-				<img className="logo__img" src="./img/logo/header-logo--mobile.png" alt="Logotype">
-			</picture>
-			<button className="header__nav-button" ></button>
-			<nav className="header__nav nav" >
-				<ul>
-					<li className="header__list-item">Главная</li>
-    			<li className="header__list-item">Фото и видео</li>
-    			<li className="header__list-item">Форма отзыва</li>
-    			<li className="header__list-item">Html academy</li>
-				</ul>
-			</nav>
-		</div>
-	}
-}
+import HeaderLogo from './header__logo.jsx';
+import HeaderNav from './header__nav.jsx';
 
 class Header extends React.Component {
 	constructor(props){
-
+		super()
 	}
 	render(){
-		<header className="header">
-			<HeaderLogo/>
-		</header>
+		return (
+			<header className="header">
+				<HeaderLogo/>
+				<HeaderNav/>
+			</header>
+		)
 	}
 }
+
+export default Header;

@@ -5,6 +5,7 @@ class HeaderLogo extends React.Component {
 		return(
 			<div className="header__logo-wrapper logo" >
 				<picture className="logo__picture">
+					<source srcSet="img/logo/header-logo--desktop.png"/>
 					<img className="logo__img" src="img/logo/header-logo--mobile.png" alt="Logotype"/>
 				</picture>
 			</div>

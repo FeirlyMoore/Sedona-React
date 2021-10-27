@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Sedona-React/static/css/main.263b8235.chunk.css",
-    "main.js": "/Sedona-React/static/js/main.469ff169.chunk.js",
-    "main.js.map": "/Sedona-React/static/js/main.469ff169.chunk.js.map",
+    "main.css": "/Sedona-React/static/css/main.2b8e7767.chunk.css",
+    "main.js": "/Sedona-React/static/js/main.0e7bb7b8.chunk.js",
+    "main.js.map": "/Sedona-React/static/js/main.0e7bb7b8.chunk.js.map",
     "runtime-main.js": "/Sedona-React/static/js/runtime-main.3c4f821c.js",
     "runtime-main.js.map": "/Sedona-React/static/js/runtime-main.3c4f821c.js.map",
     "static/js/2.5ffa8f2a.chunk.js": "/Sedona-React/static/js/2.5ffa8f2a.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.7926467b.chunk.js": "/Sedona-React/static/js/3.7926467b.chunk.js",
     "static/js/3.7926467b.chunk.js.map": "/Sedona-React/static/js/3.7926467b.chunk.js.map",
     "index.html": "/Sedona-React/index.html",
-    "static/css/main.263b8235.chunk.css.map": "/Sedona-React/static/css/main.263b8235.chunk.css.map",
+    "static/css/main.2b8e7767.chunk.css.map": "/Sedona-React/static/css/main.2b8e7767.chunk.css.map",
     "static/js/2.5ffa8f2a.chunk.js.LICENSE.txt": "/Sedona-React/static/js/2.5ffa8f2a.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3c4f821c.js",
     "static/js/2.5ffa8f2a.chunk.js",
-    "static/css/main.263b8235.chunk.css",
-    "static/js/main.469ff169.chunk.js"
+    "static/css/main.2b8e7767.chunk.css",
+    "static/js/main.0e7bb7b8.chunk.js"
   ]
 }

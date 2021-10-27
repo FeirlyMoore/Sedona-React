@@ -1,14 +1,11 @@
 import React, { Component } from 'react';
+import Components from './components.jsx';
 
 class PrBlock1 extends React.Component {
 	render() {
 		return(
 			<div className="privileges__block privileges__block-1">
-				<article>
-					<h2>Настоящий городок</h2>
-					<span>— №1 —</span>
-					<p>Седона не аттракцион для туристов, там течёт своя жизнь</p>
-				</article>
+				<Components.ArticleType1 title="Настоящий городок" decoEl="— №1 —" content="Седона не аттракцион для туристов, там течёт своя жизнь"/>
 				<picture>
 				  <source srcSet="img/privileges/privileges-city--desktop.png"/>
 				  <source srcSet="img/privileges/privileges-city--tablet.png"/>

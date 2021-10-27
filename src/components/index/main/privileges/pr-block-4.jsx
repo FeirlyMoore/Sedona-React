@@ -1,16 +1,5 @@
 import React, { Component } from 'react';
-
-const Components = {
-	ArticleType1: function(props) {
-		return(
-			<article className={props.artcClass}>
-				<h2 className={props.hClass}>{props.title}</h2>
-				<span className={props.spClass}>{props.decoEl}</span>
-				<p className={props.pClass}>{props.content}</p>
-			</article>
-		)
-	}
-}
+import Components from './components.jsx';
 
 class PrBlock4 extends React.Component {
 	render() {

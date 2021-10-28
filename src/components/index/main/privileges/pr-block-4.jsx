@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Components from './components.jsx';
+import Components from './../../../components.jsx';
 
 class PrBlock4 extends React.Component {
 	render() {

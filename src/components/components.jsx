@@ -23,6 +23,14 @@ const Components = {
 		return(
 			<span className={props.spanClass}>{props.content}</span>
 		)
+	},
+	UndefinedBlock: function(props) {
+		return(
+			<div className="block-undefined">
+				<h1 className="block-undefined__title">404</h1>
+				<p className="block-undefined__subtitle">Страница была удалена, либо указан неверный адрес</p>
+			</div>
+		)
 	}
 }
 
@@ -31,3 +39,9 @@ export default Components;
 // <Components.ArticleType2 articleClass="" svgClass="" useClass="" h2Class="" pClass="" xlinkHref="" title="" content=""/>
 // <Components.ArticleType1 articleClass="" h2Class="" spanClass="" pClass="" title="" decoEl="" content=""/>
 // <Components.Button spanClass="" content=""/>
+
+{/*<Router>
+	<Switch>
+		<Route exact path="" component={}/>
+	</Switch>
+</Router>*/}

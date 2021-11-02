@@ -1,12 +1,17 @@
+// Packages && Libs
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './style.scss';
-import App from './components/App.jsx';
 import reportWebVitals from './reportWebVitals';
+import { BrowserRouter } from 'react-router-dom';
+// Components && Styles
+import App from './components/App.jsx';
+import './style.scss';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+  	<BrowserRouter>
+  	  <App/>
+  	</BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );

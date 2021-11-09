@@ -11,17 +11,17 @@ const FooterComponents = {
 			<div>
 				<ul>
 					<li>
-						<svg width="18" height="15" ariaLabel="Twitter">
+						<svg width="46" height="48">
 							<use xlinkHref="img/icons/conglomerate.svg#icon-twitter"/>
 						</svg>
 					</li>
 					<li>
-						<svg width="9" height="19" ariaLabel="Facebook">
+						<svg width="47" height="48">
 							<use xlinkHref="img/icons/conglomerate.svg#icon-facebook"/>
 						</svg>
 					</li>
 					<li>
-						<svg width="20" height="14" ariaLabel="YouTube">
+						<svg width="46" height="48">
 							<use xlinkHref="img/icons/conglomerate.svg#icon-youtube"/>
 						</svg>
 					</li>

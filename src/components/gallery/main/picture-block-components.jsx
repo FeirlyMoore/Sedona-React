@@ -3,40 +3,35 @@ import React, { Component } from 'react';
 /* Components */
 
 const PBComponents = {
-  PictureBlockImg: function(props) {
+  PictureBlockImg: (props) => {
     return(
-      <picture className="picture-block__picture">
-        <source/>
-        <source/>
-        <img className="" src="" alt=""/>
+      <picture className={"picture-block__picture " + props.picClass}>
+        <source srcSet={props.picSource1Src}/>
+        <source srcSet={props.picSource2Src}/>
+        <img className={props.picImgClass} src={props.picSrc} alt={props.picAlt} width={props.imgWidth} height={props.imgHeight}/>
       </picture>
     )
   },
-  PictureBlockDescription: function(props) {
+  PictureBlockDescription: (props) => {
     return(
-      <article className="picture-block__description">
-        <h2 className=""></h2>
-        <p className=""></p>
+      <article className={"picture-block__description " + props.descClass}>
+        <h2 className={props.titleClass}>{props.title}</h2>
+        <p className={props.subtitleClass}>{props.subtitle}</p>
       </article>
     )
   },
-  PictureBlockLike: function(props) {
+  PictureBlockLike: (props) => {
     return(
-      <div className="">
-        <svg className="">
-          <use/>
+      <div className={"picture-block__like " + props.likeClass}>
+        <svg className={"icon-like " + props.iconLikeClass} width={props.svgWidth} height={props.svgHeight}>
+          <use xlinkHref={props.xlinkHref}/>
         </svg>
-        <span className=""></span>
+        <span className={"like-counter " + props.likeCountClass}>{props.count}</span>
       </div>
     )
   }
 }
 
 export default PBComponents;
-
-// <Components.ArticleType2 articleClass="" svgClass="" useClass="" h2Class="" pClass="" xlinkHref="" title="" content=""/>
-// <Components.ArticleType1 articleClass="" h2Class="" spanClass="" pClass="" title="" decoEl="" content=""/>
-// <Components.Button spanClass="" content=""/>
-
 
 // <!DOCTYPE Liky>

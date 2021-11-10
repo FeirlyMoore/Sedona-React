@@ -24,7 +24,7 @@ class GalleryMain extends React.Component {
 						// Description block
 						descClass="picture-block__description-1"
 						titleClass="picture-block__title"
-						title=""
+						title="Неродные просторы"
 						subtitleClass="picture-block__subtitle"
 						subtitle="Автор фото: Борис"
 						// Like counter block
@@ -43,7 +43,7 @@ class GalleryMain extends React.Component {
 						source2Src="img/gallery/picture-2--tablet.png"
 						imgClass="picture-block__img"
 						imgSrc="img/gallery/picture-2--mobile.png"
-						imgAlt=""
+						imgAlt="Местная растительность"
 						imgWidth="auto"
 						imgHeight="auto"
 						// Description block
@@ -68,7 +68,7 @@ class GalleryMain extends React.Component {
 						source2Src="img/gallery/picture-3--tablet.png"
 						imgClass="picture-block__img"
 						imgSrc="img/gallery/picture-3--mobile.png"
-						imgAlt=""
+						imgAlt="Дорога на север"
 						imgWidth="auto"
 						imgHeight="auto"
 						// Description block
@@ -93,7 +93,7 @@ class GalleryMain extends React.Component {
 						source2Src="img/gallery/picture-4--tablet.png"
 						imgClass="picture-block__img"
 						imgSrc="img/gallery/picture-4--mobile.png"
-						imgAlt=""
+						imgAlt="Мост дьявола"
 						imgWidth="auto"
 						imgHeight="auto"
 						// Description block

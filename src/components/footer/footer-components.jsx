@@ -33,7 +33,8 @@ const FooterComponents = {
 		return(
 			<div>
 				<span>Разработано</span>
-				<img src="" alt=""/>
+				<img src="img/logo/html-academy-logo.svg" alt="Html Academy" width="37" height="auto"/>
+				<img src="img/logo/2li.svg" alt="Likiz inc." width="125" height="auto"/>
 			</div>
 		)
 	}

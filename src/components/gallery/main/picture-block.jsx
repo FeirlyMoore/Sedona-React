@@ -18,10 +18,8 @@ class PictureBlock extends React.Component{
     			titleClass={this.props.titleClass} title={this.props.title}
     			subtitleClass={this.props.subtitleClass} subtitle={this.props.subtitle}
     		/>
-    		<PBComponents.PictureBlockLike likeClass={this.props.likeClass}
-    			iconLikeClass={this.props.iconLikeClass} svgWidth={this.props.svgWidth}
-    			svgHeight={this.props.svgHeight} xlinkHref={this.props.xlinkHref}
-    			likeCountClass={this.props.likeCountClass} count={this.props.count}
+    		<PBComponents.PictureBlockLike
+    			likeClass={this.props.likeClass} count={this.props.count}
     		/>
     	</div>
     )

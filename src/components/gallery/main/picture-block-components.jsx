@@ -22,11 +22,11 @@ const PBComponents = {
   },
   PictureBlockLike: (props) => {
     return(
-      <div className={"picture-block__like " + props.likeClass}>
-        <svg className={"icon-like " + props.iconLikeClass} width={props.svgWidth} height={props.svgHeight}>
-          <use xlinkHref={props.xlinkHref}/>
+      <div className="picture-block__like">
+        <svg className="icon-like" width="23" height="21">
+          <use xlinkHref="img/icons/conglomerate.svg#icon-like"/>
         </svg>
-        <span className={"like-counter " + props.likeCountClass}>{props.count}</span>
+        <span className="like-counter">{props.count}</span>
       </div>
     )
   }

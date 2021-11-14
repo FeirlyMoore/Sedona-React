@@ -29,11 +29,6 @@ class GalleryMain extends React.Component {
 						subtitle="Автор фото: Борис"
 						// Like counter block
 						likeClass="picture-block__like-1"
-						iconLikeClass="icon-like-1"
-						svgWidth="23"
-						svgHeight="21"
-						xlinkHref="img/icons/conglomerate.svg#icon-like"
-						likeCountClass="like-counter-1"
 						count="1350"
 					/>
 					<PictureBlock PicBlockClass="picture-block-2"
@@ -54,11 +49,6 @@ class GalleryMain extends React.Component {
 						subtitle="Автор фото: Сергей"
 						// Like counter block
 						likeClass="picture-block__like-2"
-						iconLikeClass="icon-like-2"
-						svgWidth="23"
-						svgHeight="21"
-						xlinkHref="img/icons/conglomerate.svg#icon-like"
-						likeCountClass="like-counter-2"
 						count="143"
 					/>
 					<PictureBlock PicBlockClass="picture-block-3"
@@ -79,11 +69,6 @@ class GalleryMain extends React.Component {
 						subtitle="Автор фото: Пётр"
 						// Like counter block
 						likeClass="picture-block__like-3"
-						iconLikeClass="icon-like-3"
-						svgWidth="23"
-						svgHeight="21"
-						xlinkHref="img/icons/conglomerate.svg#icon-like"
-						likeCountClass="like-counter-3"
 						count="96"
 					/>
 					<PictureBlock PicBlockClass="picture-block-4"
@@ -104,11 +89,6 @@ class GalleryMain extends React.Component {
 						subtitle="Автор фото: Антон"
 						// Like counter block
 						likeClass="picture-block__like-4"
-						iconLikeClass="icon-like-4"
-						svgWidth="23"
-						svgHeight="21"
-						xlinkHref="img/icons/conglomerate.svg#icon-like"
-						likeCountClass="like-counter-4"
 						count="254"
 					/>
 				</div>

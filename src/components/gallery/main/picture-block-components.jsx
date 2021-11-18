@@ -6,8 +6,8 @@ const PBComponents = {
   PictureBlockImg: (props) => {
     return(
       <picture className={"picture-block__picture " + props.picClass}>
-        <source srcSet={props.picSource1Src}/>
-        <source srcSet={props.picSource2Src}/>
+        <source srcSet={`${props.picSource1Src}`} media="(min-width: 1200px)"/>
+        <source srcSet={`${props.picSource2Src}`} media="(min-width: 768px)"/>
         <img className={props.picImgClass} src={props.picSrc} alt={props.picAlt} width={props.imgWidth} height={props.imgHeight}/>
       </picture>
     )
@@ -22,7 +22,7 @@ const PBComponents = {
   },
   PictureBlockLike: (props) => {
     return(
-      <div className="picture-block__like">
+      <div className={"picture-block__like " + props.likeClass}>
         <svg className="icon-like" width="23" height="21">
           <use xlinkHref="img/icons/conglomerate.svg#icon-like"/>
         </svg>

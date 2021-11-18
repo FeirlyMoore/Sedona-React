@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 /* Components */
 import GalleryTitleBlock from './gallery-title-block.jsx';
 import PictureBlock from "./picture-block.jsx";
+import ActionBlock from "./gallery-action-block.jsx";
 
 class GalleryMain extends React.Component {
 	render() {
@@ -92,9 +93,12 @@ class GalleryMain extends React.Component {
 						count="254"
 					/>
 				</div>
+				<ActionBlock/>
 			</main>
 		)
 	}
 }
 
 export default GalleryMain;
+
+// <!DOCTYPE Liky>

@@ -19,12 +19,12 @@ class App extends React.Component{
       	<div>
       	  <Header/>
       	  <Switch>
-						<Route exact path="/" component={Intro}/>
-						<Route exact path="/gallery" component={GalleryIntro}/>
+						<Route exact path="/Sedona-React/" component={Intro}/>
+						<Route exact path="/Sedona-React/gallery" component={GalleryIntro}/>
 					</Switch>
 					<Switch>
-						<Route exact path="/" component={Main}/>
-						<Route exact path="/gallery" component={GalleryMain}/>
+						<Route exact path="/Sedona-React/" component={Main}/>
+						<Route exact path="/Sedona-React/gallery" component={GalleryMain}/>
 						<Route component={Components.UndefinedBlock}/>
 					</Switch>
       	  <Footer/>
@@ -35,5 +35,7 @@ class App extends React.Component{
 }
 
 export default App;
+
+// /Sedona-React
 
 // <!DOCTYPE Liky>

@@ -28,7 +28,7 @@ const Components = {
 		return(
 			<div className="block-undefined">
 				<h1 className="block-undefined__title">404</h1>
-				<p className="block-undefined__subtitle">Страница была удалена, либо указан неверный адрес</p>
+				<p className="block-undefined__subtitle">Кажись, это совсем не Седона !</p>
 			</div>
 		)
 	}

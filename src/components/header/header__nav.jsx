@@ -9,13 +9,13 @@ class HeaderNav extends React.Component {
 				<nav className="header__nav nav" >
 					<ul>
 						<li className="header__list-item">
-							<Link to="/">Главная</Link>
+							<Link to="/Sedona-React/">Главная</Link>
 						</li>
     				<li className="header__list-item">
-							<Link to="/gallery">Фото и видео</Link>
+							<Link to="/Sedona-React/gallery">Фото и видео</Link>
     				</li>
     				<li className="header__list-item">
-							<Link to="/form">Форма отзыва</Link>
+							<Link to="/Sedona-React/form">Форма отзыва</Link>
     				</li>
     				<li className="header__list-item">
     					<a href="https://github.com/REDFOX39-inc" target="_blank">REDFOX39 inc.</a>
@@ -28,3 +28,7 @@ class HeaderNav extends React.Component {
 }
 
 export default HeaderNav;
+
+// /Sedona-React
+
+// <!DOCTYPE Liky>

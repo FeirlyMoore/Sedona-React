@@ -11,6 +11,7 @@ import Main from './index/main/main.jsx';
 // Gallery
 import GalleryIntro from './gallery/gallery-intro.jsx';
 import GalleryMain from './gallery/main/gallery-main.jsx';
+import FormMain from './form/form-main.jsx';
 
 class App extends React.Component{
   render() {
@@ -19,12 +20,14 @@ class App extends React.Component{
       	<div>
       	  <Header/>
       	  <Switch>
-						<Route exact path="/Sedona-React/" component={Intro}/>
-						<Route exact path="/Sedona-React/gallery" component={GalleryIntro}/>
+						<Route exact path="/" component={Intro}/>
+						<Route exact path="/gallery" component={GalleryIntro}/>
+						<Route exact path="/form" component={GalleryIntro}/>
 					</Switch>
 					<Switch>
-						<Route exact path="/Sedona-React/" component={Main}/>
-						<Route exact path="/Sedona-React/gallery" component={GalleryMain}/>
+						<Route exact path="/" component={Main}/>
+						<Route exact path="/gallery" component={GalleryMain}/>
+						<Route exact path="/form" component={FormMain}/>
 						<Route component={Components.UndefinedBlock}/>
 					</Switch>
       	  <Footer/>

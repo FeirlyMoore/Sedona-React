@@ -7,8 +7,61 @@ class FormMain extends React.Component {
 
 		return(
 			<main className="main">
-				<form >
-					<input type="text"/>
+				<form className="form form--js" action="https://echo.htmlacademy.ru" method="POST">
+					<article class="form__article">
+						<h2 className="form-article__title"></h2>
+						<label for="" class="form__label">
+							<input type="text" class="form__input"/>
+						</label>
+						<label for="" class="form__label">
+							<input type="text" class="form__input"/>
+						</label>
+						<label for="" class="form__label">
+							<input type="text" class="form__input"/>
+						</label>
+					</article>
+					<article class="form__article">
+						<h2 className="form-article__title"></h2>
+						<label for="" class="form__label">
+							<input type="text" class="form__input"/>
+						</label>
+						<label for="" class="form__label">
+							<input type="text" class="form__input"/>
+						</label>
+					</article>
+					<article class="form__article">
+						<h2 className="form-article__title"></h2>
+						<label for="" class="form__label">
+							<input type="radio" class="form__input"/>
+						</label>
+						<label for="" class="form__label">
+							<input type="radio" class="form__input"/>
+						</label>
+						<label for="" class="form__label">
+							<input type="radio" class="form__input"/>
+						</label>
+					</article>
+					<article class="form__article">
+						<h2 className="form-article__title"></h2>
+						<label for="" class="form__label">
+							<input type="checkbox" class="form__input"/>
+						</label>
+						<label for="" class="form__label">
+							<input type="checkbox" class="form__input"/>
+						</label>
+						<label for="" class="form__label">
+							<input type="checkbox" class="form__input"/>
+						</label>
+						<label for="" class="form__label">
+							<input type="checkbox" class="form__input"/>
+						</label>
+					</article>
+					<article class="form__article">
+						<h2 className="form-article__title"></h2>
+						<label for="" class="form__label">
+							<textarea name="" id="" cols="30" rows="10"/>
+						</label>
+					</article>
 				</form>
 			</main>
 		)

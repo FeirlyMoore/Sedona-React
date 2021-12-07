@@ -1,5 +1,5 @@
 const Components = {
-	ArticleType1: function(props) {
+	ArticleType1: (props) => {
 		return(
 			<article className={props.articleClass}>
 				<h2 className={props.h2Class}>{props.title}</h2>
@@ -8,7 +8,7 @@ const Components = {
 			</article>
 		)
 	},
-	ArticleType2: function(props) {
+	ArticleType2: (props) => {
 		return(
 			<article className={props.articleClass}>
 				<svg className={props.svgClass} width={props.width} height={props.height} aria-lebel={props.ariaLabel}>
@@ -19,12 +19,20 @@ const Components = {
 			</article>
 		)
 	},
-	Button: function(props) {
+	Button: (props) => {
 		return(
 			<span className={props.spanClass}>{props.content}</span>
 		)
 	},
-	UndefinedBlock: function(props) {
+	MainTitleBlock: (props) => {
+		return(
+			<section className="title-block">
+				<h1 className="title-block__title">{props.title}</h1>
+				<p className="title-block__subtitle">{props.subtitle}</p>
+			</section>
+		)
+	},
+	UndefinedBlock: (props) => {
 		return(
 			<div className="block-undefined">
 				<h1 className="block-undefined__title">404</h1>

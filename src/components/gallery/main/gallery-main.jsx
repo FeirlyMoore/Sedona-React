@@ -1,7 +1,8 @@
 // Packages && Libs
 import React, { Component } from 'react';
 /* Components */
-import GalleryTitleBlock from './gallery-title-block.jsx';
+// import GalleryTitleBlock from './gallery-title-block.jsx';
+import Components from './../../components.jsx';
 import PictureBlock from "./picture-block.jsx";
 import ActionBlock from "./gallery-action-block.jsx";
 
@@ -10,7 +11,11 @@ class GalleryMain extends React.Component {
 
 		return(
 			<main className="main">
-				<GalleryTitleBlock/>
+				<Components.MainTitleBlock
+				 title="Фото и видео"
+				 subtitle="Не можете решиться на путешествие из-за курса?&nbsp;
+				 Фотографии помогут вам забыть о политике и экономике."
+				/>
 				<div className="picture-block-wrapper">
 					<PictureBlock PicBlockClass="picture-block-1"
 						// Picture block

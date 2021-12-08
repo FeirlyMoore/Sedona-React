@@ -7,26 +7,26 @@ class Attractions extends React.Component {
 		return(
 			<article className="form__article form__article--visited">
 				<h2 className="form-article__title">Посещённые достопримечательности :</h2>
-				<ul>
-					<li>
+				<ul className="list list-attractions">
+					<li className="list__list-item">
 						<label className="form__label">
 							Мост Дьявола
 							<input className="form__input form__input--checkbox" type="checkbox" name="attractions" value="devil's_bridge"/>
 						</label>
 					</li>
-					<li>
+					<li className="list__list-item">
 						<label className="form__label">
 							Гора-Колокол
 							<input className="form__input form__input--checkbox" type="checkbox" name="attractions" value="the_bell_mountain"/>
 						</label>
 					</li>
-					<li>
+					<li className="list__list-item">
 						<label className="form__label">
 							Слайд-парк
 							<input className="form__input form__input--checkbox" type="checkbox" name="attractions" value="slide_park"/>
 						</label>
 					</li>
-					<li>
+					<li className="list__list-item">
 						<label className="form__label">
 							Красные скалы
 							<input className="form__input form__input--checkbox" type="checkbox" name="attractions" value="red_rocks"/>

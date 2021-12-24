@@ -1,6 +1,7 @@
 .intro {
-	// background-image: url(./img/decorative/background-mobile.png);
+	padding-top: 9em;
 	background-color: #222;
+	// background-image: url(./img/decorative/background-mobile.png);
 
 	// @media (min-width: $tablet-width) {
 	// 	background-image: url("./img/decorative/background-tablet.png");
@@ -12,13 +13,19 @@
 }
 
 .intro__img {
-	min-width: 320px;
+	min-width: 32em;
 	width: 100vw;
 	height: auto;
 }
 
+.intro__deco-block {
+	margin: 0;
+	padding: 0;
+	height: 2.7em;
+}
+
 .intro__deco-img {
-	min-width: 320px;
+	min-width: 32em;
 	width: 100vw;
 	height: auto;
 }

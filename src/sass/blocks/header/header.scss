@@ -2,32 +2,10 @@
 	display: flex;
 	flex-direction: row;
 	position: relative;
-	width: 100vw;
+	box-sizing: border-box;
+	min-width: 320px;
 	height: 5.6em;
+	margin: 0;
 }
 
-.header__logo-wrapper {
-	// position: absolute;
-	// left: 50%;
-	// top: 0;
-	margin: 0 auto;
-}
-
-.logo__picture {
-	opacity: 1;
-	transition: opacity .2s;
-
-	&:hover {
-    opacity: 0.7;
-    transition: opacity .2s;
-  }
-
-  &:active {
-    opacity: 0.3;
-    transition: opacity .2s;
-  }
-}
-
-// .logo__picture:hover {
-// opacity: 0.6;
-// }
+// <!DOCTYPE Liky>

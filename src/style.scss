@@ -18,12 +18,16 @@
 
 //Header
 @import "sass/blocks/header/header.scss";
-// @import "sass/blocks/header/header-logo.scss";
-// @import "sass/blocks/header/nav-toggle-button.scss";
-// @import "sass/blocks/header/navigation.scss";
-// @import "sass/blocks/header/navigation-list.scss";
+@import "sass/blocks/header/header__logo.scss";
+// @import "sass/blocks/header/navigation__toggle-button.scss";
+@import "sass/blocks/header/navigation.scss";
+@import "sass/blocks/header/navigation__list.scss";
 
 /* Individual styles */
+
+// Intro
+
+@import "sass/blocks/intro/intro.scss";
 
 // index
 // @import "sass/blocks/index/promo.scss";

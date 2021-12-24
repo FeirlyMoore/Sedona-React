@@ -1,0 +1,24 @@
+.intro {
+	// background-image: url(./img/decorative/background-mobile.png);
+	background-color: #222;
+
+	// @media (min-width: $tablet-width) {
+	// 	background-image: url("./img/decorative/background-tablet.png");
+	// }
+
+	// @media (min-width: $desktop-width) {
+	// 	background-image: url("./img/decorative/background-desktop.png");
+	// }
+}
+
+.intro__img {
+	min-width: 320px;
+	width: 100vw;
+	height: auto;
+}
+
+.intro__deco-img {
+	min-width: 320px;
+	width: 100vw;
+	height: auto;
+}

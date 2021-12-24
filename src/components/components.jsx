@@ -11,7 +11,7 @@ const Components = {
 	ArticleType2: (props) => {
 		return(
 			<article className={props.articleClass}>
-				<svg className={props.svgClass} width={props.width} height={props.height} aria-lebel={props.ariaLabel}>
+				<svg className={props.svgClass} width={props.width} height={props.height}>
 					<use className={props.useClass} xlinkHref={props.xlinkHref}/>
 				</svg>
 				<h2 className={props.h2Class}>{props.title}</h2>

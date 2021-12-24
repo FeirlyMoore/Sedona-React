@@ -5,19 +5,19 @@ class HeaderNav extends React.Component {
 	render() {
 		return(
 			<div className="header__nav-wrapper">
-				<button className="header__nav-button"/>
+				<button className="header__nav-toggle-button"/>
 				<nav className="header__nav nav" >
-					<ul>
-						<li className="header__list-item">
+					<ul className="nav-list">
+						<li className="nav-list__list-item">
 							<Link to="/">Главная</Link>
 						</li>
-    				<li className="header__list-item">
+    				<li className="nav-list__list-item">
 							<Link to="/gallery">Фото и видео</Link>
     				</li>
-    				<li className="header__list-item">
+    				<li className="nav-list__list-item">
 							<Link to="/form">Форма отзыва</Link>
     				</li>
-    				<li className="header__list-item">
+    				<li className="nav-list__list-item">
     					<a href="https://github.com/REDFOX39-inc" target="_blank">REDFOX39 inc.</a>
     				</li>
 					</ul>

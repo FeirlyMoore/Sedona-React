@@ -25,9 +25,9 @@ class FormMain extends React.Component {
 					<Impression/>
 					<Attractions/>
 					<CommentForm/>
-					<div class="form__send-button-wrapper">
-          	<button class="form__send-button send-button--js" type="submit">Отправить отзыв</button>
-          	<p class="form__required-notify">* — Обязательные поля</p>
+					<div className="form__send-button-wrapper">
+          	<button className="form__send-button send-button--js" type="submit">Отправить отзыв</button>
+          	<p className="form__required-notify">* — Обязательные поля</p>
         	</div>
 				</form>
 			</main>

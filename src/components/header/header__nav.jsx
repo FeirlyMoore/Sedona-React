@@ -5,8 +5,8 @@ class HeaderNav extends React.Component {
 	render() {
 		return(
 			<div className="header__nav-wrapper">
-				<button className="header__nav-toggle-button"/>
-				<nav className="header__nav nav" >
+				<nav className="header__nav nav--closed">
+					<button className="header__nav-toggle-button"/>
 					<ul className="nav-list">
 						<li className="nav-list__list-item">
 							<Link to="/">Главная</Link>

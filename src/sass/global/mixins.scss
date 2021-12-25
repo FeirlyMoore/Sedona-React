@@ -1,13 +1,7 @@
-@mixin block-position--flex($j-content, $width, $m-width) {
-  display: inline-flex;
-  justify-content: $j-content;
-  width: $width;
-  max-width: $m-width;
-}
-
 @mixin container() {
-  min-width: 320px;
-  width: 100%;
+	display: block;
+  min-width: 32em;
+  width: 100vw;
   margin: 0 auto;
   box-sizing: border-box;
 }

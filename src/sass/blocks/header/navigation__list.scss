@@ -1,9 +1,142 @@
 .nav-list {
-	margin: 0;
+  @include container();
+  box-sizing: content-box;
+  float: right;
+  text-align: center;
+  list-style: none;
+  user-select: none;
+  transition: display .2s;
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0;
+  }
 }
 
-.nav-list__list-item {
-	
+.nav-list--style {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Oswald Medium", "Arial", sans-serif;
+}
+
+.nav-list__item {
+  @include uppercase();
+  font-family: "Oswald Medium", "Arial", sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  text-decoration: none;
+  white-space: nowrap;
+  display: block;
+  width: 100%;
+  padding: 22px 0;
+  text-align: center;
+  background-color: $basic-color;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(1, 1, 1, 0.2);
+
+  &:first-child {
+    border-top: none;
+  }
+
+  &:last-child {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: none;
+    box-shadow: inset 0px -5px 5px rgba(0,0,0, 0.2);
+  }
+
+  &:hover {
+    background-color: $basic-color--hover;
+  }
+
+  &:active .nav-list__link {
+    color: rgba($main-color, 0.2);
+  }
+
+  @media (min-width: $tablet-width) {
+    width: fit-content;
+    font-family: "Oswald Regular", "Arial", sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    border-bottom: none;
+    border-top: none;
+    padding: 23px 0;
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    font-size: 20px;
+    line-height: 30px;
+    margin-right: 35px;
+    margin-top: -2px;
+    padding: 20px 0;
+    color: $main-color;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
+
+.nav-list__link {
+	color: $main-color;
+	user-select: none;
+}
+
+.nav-list-index {
+  .nav-list__link {
+    @media (min-width: $desktop-width) {
+      color: inherit;
+    }
+  }
+
+  .nav-list__item--current {
+    .nav-list__link {
+      @media (min-width: $desktop-width) {
+        padding-bottom: 5px;
+        border-bottom: 2px solid $main-color;
+      }
+    }
+  }
+}
+
+.nav-list__item--current {
+  &.nav-list__item {
+    border-bottom: 1px solid $light-green;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    &:active {
+      opacity: 1;
+    }
+
+    @media (min-width: $tablet-width) {
+      border-bottom: none;
+    }
+  }
+
+  .nav-list__link {
+    @media (min-width: $tablet-width) {
+      padding-bottom: 10px;
+      border-bottom: 2px solid $light-green;
+    }
+  }
+}
+
+.nav--closed .nav-list {
+  @media (max-width: $mobile-width-only) {
+    display: none;
+  	transition: display .2s;
+
+  }
 }
 
 // <!DOCTYPE Liky>

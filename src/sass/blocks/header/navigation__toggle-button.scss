@@ -7,8 +7,7 @@
   height: 56px;
   border: 0;
   cursor: pointer;
-  background-color: $main-color;
-  outline: 1px solid orangered;
+  background-color: transparent;
 
   @media (min-width: $tablet-width) {
     display: none;
@@ -18,12 +17,12 @@
 .nav--closed .header__nav-toggle-button::before {
   content: "";
   position: absolute;
-  top: 23px;
+  top: 19px;
   left: 20px;
   width: 24px;
-  height: 2px;
-  background-color: $black-color;
-  box-shadow: 0 8px 0 0 $black-color, 0 16px 0 0 $black-color;
+  height: 4px;
+  background-color: $basic-color;
+  box-shadow: 0 8px 0 0 $basic-color, 0 16px 0 0 $basic-color;
 }
 
 .nav--opened .header__nav-toggle-button {
@@ -32,10 +31,10 @@
     content: "";
     position: absolute;
     top: 30px;
-    left: 20px;
-    width: 24px;
-    height: 2px;
-    background-color: $black-color;
+    left: 15px;
+    width: 31px;
+    height: 4px;
+    background-color: $main-color;
   }
 
   &::before {

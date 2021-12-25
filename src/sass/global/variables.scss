@@ -5,7 +5,7 @@ $desktop-width: 1200px;
 $desktop-width-only: 1199px;
 $mobile-width-only: 767px;
 /* Colors */
-$main-color: #ffffff;
+$main-color: #ffffff; // --- USED ---
 $light-green: #68b738;
 $basic_green-2: #5eaa2f;
 $light-green-background: rgba(104, 183, 56, 0.85);
@@ -22,10 +22,14 @@ $special_grey-3: #ebebeb;
 $special_grey-2: #666666;
 $special_dark-grey-2: #222222;
 $pre-black-color: #111111;
-$black-color: #000000;
+$black-color: #000000; // --- USED ---
 $catalog-border-color: #ededed;
 $input-hover-color: #bababa;
 $icon-gray-color: #d3d3d3;
+// ----------------------
+$basic-color: #81b3d2; // --- USED ---
+$basic-color--hover: #5496bd;
+
 /* Fonts */
 $font-stack--Oswald-Regular:"Oswald Regular", "Arial", sans-serif;
 $font-stack--Oswald-Medium:"Oswald Medium", "Arial", sans-serif;

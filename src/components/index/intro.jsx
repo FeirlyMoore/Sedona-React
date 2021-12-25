@@ -8,7 +8,10 @@ class Intro extends React.Component {
 					<img className="intro__img" src="img/logo/intro.svg" alt="Intro"/>
 				</div>
 				<div className="intro__deco-block">
-					<img className="intro__deco-img" src="img/decorative/decorative-top-arrows.svg" alt="deco"/>
+				<picture className="intro__deco-picture">
+					<source srcSet="img/decorative/decorative-top-arrows.svg" media="(min-width: 1240px)"/>
+					<img className="intro__deco-img" src="img/decorative/decorative-top-arrows--mobile.svg" alt="deco"/>
+				</picture>
 				</div>
 			</div>
 		)

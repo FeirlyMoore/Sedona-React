@@ -8,6 +8,7 @@
 .logo__picture {
 	opacity: 1;
 	transition: opacity .2s;
+	user-select: none;
 
 	&:hover {
     opacity: 0.7;

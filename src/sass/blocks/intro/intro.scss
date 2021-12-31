@@ -1,7 +1,10 @@
 .intro {
+	position: relative;
+	height: 38.9em;
 	padding-top: 9em;
+	box-sizing: border-box;
 	background-color: #222;
-	// background-image: url(./img/decorative/background-mobile.png);
+	// background-image: url("./img/decorative/background-mobile.png");
 
 	// @media (min-width: $tablet-width) {
 	// 	background-image: url("./img/decorative/background-tablet.png");
@@ -12,16 +15,26 @@
 	// }
 }
 
-.intro__img {
+.intro__title-block {
 	min-width: 32em;
-	width: 100vw;
-	height: auto;
+	height: fit-content;
+}
+
+.intro__img {
+	display: block;
+	width: 28.2em;
+	height: 21.4em;
+	margin: 0 auto;
 }
 
 .intro__deco-block {
-	margin: 0;
-	padding: 0;
-	height: 2.7em;
+	position: absolute;
+	min-width: 32em;
+	height: 5.8em;
+	bottom: 0;
+}
+
+.intro__deco-picture {
 }
 
 .intro__deco-img {

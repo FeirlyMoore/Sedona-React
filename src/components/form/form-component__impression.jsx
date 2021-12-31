@@ -11,7 +11,7 @@ class Impression extends React.Component {
 					<li className="list__list-item">
 						<label className="form__label">
 							Скорее положительное
-							<input className="form__input form__input--radio" type="radio" name="impression" value="good" checked/>
+							<input className="form__input form__input--radio" type="radio" name="impression" value="good" defaultChecked/>
 						</label>
 					</li>
 					<li className="list__list-item">

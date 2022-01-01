@@ -4,14 +4,14 @@
 	padding-top: 9em;
 	box-sizing: border-box;
 	background-color: #222;
-	// background-image: url("./img/decorative/background-mobile.png");
+	// background-image: url("./img/decorative/background--mobile.png");
 
 	// @media (min-width: $tablet-width) {
-	// 	background-image: url("./img/decorative/background-tablet.png");
+	// 	background-image: url("./img/decorative/background--tablet.png");
 	// }
 
 	// @media (min-width: $desktop-width) {
-	// 	background-image: url("./img/decorative/background-desktop.png");
+	// 	background-image: url("./img/decorative/background--desktop.png");
 	// }
 }
 
@@ -32,9 +32,6 @@
 	min-width: 32em;
 	height: 5.7em;
 	bottom: 0;
-}
-
-.intro__deco-picture {
 }
 
 .intro__deco-img {

@@ -4,6 +4,13 @@
 	padding-top: 9em;
 	box-sizing: border-box;
 	background-color: #222;
+
+// !!! ======= TROUBLE ======= !!!
+
+// > Проблема с синтаксисом ?
+// > Дифференциальное решение => https://github.com/ReactTraining/react-media "???", либо же инлайн стили.
+// > Возможен CSS in JS ( Maybe ).
+
 	// background-image: url("./img/decorative/background--mobile.png");
 
 	// @media (min-width: $tablet-width) {
@@ -13,6 +20,9 @@
 	// @media (min-width: $desktop-width) {
 	// 	background-image: url("./img/decorative/background--desktop.png");
 	// }
+
+// !!! ======= TROUBLE ======= !!!
+
 }
 
 .intro__title-block {

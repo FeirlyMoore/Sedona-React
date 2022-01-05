@@ -52,3 +52,5 @@ if (navListItems) {
 		}
 	}
 }
+
+//<!DOCTYPE Liky>
